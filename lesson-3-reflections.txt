@@ -10,7 +10,11 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    So that we can choose what to pull from the remote rather than bringing 
+    everything because we may not need it.
+
+    Also beause you may not have commited everything on the local repository any new
+    changes need to be brought in after that to make sure nothing is lost.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
