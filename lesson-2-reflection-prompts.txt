@@ -19,14 +19,52 @@ What value do you think it offers?
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+	
+	By comparing staging area with the commit1 and working directory we can make
+	sure that the changes we are planning to commit are the ones that have one 
+	commit per logical change.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	
+	Branches allow me to easily add new features and experiment with my code while
+	allowing me to experiment and develeope with my code. Because while the other
+	branches can break you can always have master branch with code that will work.
+
+	It also make it is to colloborate so that different people can work on diffrent
+	branches.
 
 How do the diagrams help you visualize the branch structure?
+
+	Diagrams helped me understand how the branches behave in terms of acting like
+	seprate branch in a tree. All commits have the link to there parents and 
+	log command simply traverses from the tip to the root for the particular branch.
+	
+	It also helped me visulize the reason behind the detached
+	head state warning. A new commit can be unreachable if it's made on a previous
+	without creating a new branch commit (or writing down commit id sepratly)
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	When we merge two branches together resulting files contain:
+	-> Lines that are present in both branches.
+	-> New lines that were added in any of the branches since the common commit for the 
+		two branches.
+	-> Any line deleted in one the branches is removed.
+
+	We represent in diagram form because it makes easier to understand what was the 
+	common commit in both branches. What changes each branch made to these orignal 
+	files. It also shows us how the new master branch after the merge has two parents.
+
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+	
+	The advantage of doing automatic merges in git is that it's easier and if there 
+	are not any conflicts it saves time. But the con is that it may lead to spurious
+	error if not properly looked or in most cases will generate conflicts that will 
+	have to be resolved.
+
+	While manual merging may be more flexible it doesn't allow ease of comparision and
+	takes a lot of time and may still result in errors due to human erros.
