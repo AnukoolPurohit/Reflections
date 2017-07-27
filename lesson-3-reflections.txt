@@ -36,7 +36,10 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    This allows for both user and git to check for the diffrence between remote and
+    local files. This intern allows user to make pushes or pulls accoringly and lets
+    git inform user when the local repository is ahead , behind or diverging from 
+    remote.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
