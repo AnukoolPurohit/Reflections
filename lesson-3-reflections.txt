@@ -47,8 +47,12 @@ and what would be harder?
     I would colloborate using emails and google docs, while they do allow editing 
     and commenting, it doesn't allow features like branches, forks, and pull request
     this makes colloboration a bit more dificult
-    
+
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When you are trying something experimental, this approch doesn't break the code.
+
+    When you are collaborating and want to fist show the code to collaboraters by
+    pull request. This makes sure there is a footprint of all commits and every
+    collaborater can take a look at it.
